@@ -33,7 +33,7 @@ pip install opencv-python ultralytics torch numpy
 Ensure you have the **ppe.pt** model file downloaded and specify its path in the script.
 
 ```python
-modelpath = r"C:\Users\vinay\Code\Python files\ppe\ppe.pt"
+modelpath = r"path/to/your/model/ppe.pt"
 model = YOLO(modelpath)
 ```
 

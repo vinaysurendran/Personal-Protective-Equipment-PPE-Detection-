@@ -10,7 +10,7 @@ cap.set(3, 1280)
 cap.set(4, 720)
 
 #cap = cv2.VideoCapture("")  # For Video
-modelpath = r"C:\Users\vinay\Code\Python files\ppe\ppe.pt"
+modelpath = r"path/to/your/model/ppe.pt"
 model = YOLO(modelpath)
  
 classNames = ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone',
